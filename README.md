@@ -33,7 +33,7 @@ export default class Clicker extends React.Component {
 
   render() {
     return (
-      <div></div>
+      <button onClick={this.handleClick}>Click me!</button>
     );
   }
 }
