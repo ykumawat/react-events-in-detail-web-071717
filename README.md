@@ -1,11 +1,13 @@
-# React Mouse Events
+# React Events in detail
 
 ## Objectives
 
-1. Describe how we might use mouse events to enhance interactivity
-2. Describe how we can attach and use click events
+1. Describe how event pooling works
+2. Describe how we can use data saved in the event object
 
 ## Event pooling
+![Chilling in the pool](https://media.giphy.com/media/3ornk83z6oqbWAAUuY/giphy.gif)
+
 Since React has its own implementation for events (called `SyntheticEvent`), it allows us to take advantage of several
 techniques to increase the performance of our applications. One such technique is called 'event pooling'. It might sound
 complicated, but it's actually pretty simple.
