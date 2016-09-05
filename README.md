@@ -7,7 +7,7 @@
 
 ## Accessing event data
 Let's take a deeper look at the actual event being passed through. A `SyntheticEvent` event has all of its usual
-properties and methods. This includes its type, target, mouse coordinates, and so on. As a reminder, we add an event
+properties and methods. These includes its type, target, mouse coordinates, and so on. As a reminder, we add an event
 handler to a component, and then we can use the event's data like this:
 
 ```js
