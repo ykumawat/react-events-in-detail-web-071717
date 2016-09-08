@@ -1,8 +1,12 @@
 # React Events in detail
 
+## Overview
+
+We'll look at how we can use event data and event pooling. 
+
 ## Objectives
 
-1. Describe how we can use event data
+1. Access event data
 2. Describe how event pooling works
 
 ## Accessing event data
