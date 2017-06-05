@@ -14,13 +14,8 @@ Let's take a deeper look at the actual event being passed through. A `SyntheticE
 
 ```js
 export default class Clicker extends React.Component {
-  constructor() {
-    super();
-    
-    this.handleClick = this.handleClick.bind(this);
-  }
   
-  handleClick(event) {
+  handleClick = (event) => {
     console.log(event.type); // prints 'click'
   }
 
